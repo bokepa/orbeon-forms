@@ -13201,4 +13201,1202 @@
             </items>
         </template>
     </resource>
+	<resource xml:lang="ca">
+        <!-- Form metadata -->
+        <!-- NOTE: Summary page expects to find application-name and form-name for the summary page here -->
+        <application-name>
+            <label>Nom d'Aplicació</label>
+            <hint todo="true">Identifica un grup de formularis, per funcionalitat o departament ("vendes"). Si vosté té un grup de Formularis, pot fer servir el nom de l'organització (p.e.: "acme"). Aquest nom es mostra a l'adreça URL del Formulari publicat, es recomana fer servir minúscules.</hint>
+            <help todo="true"/>
+            <alert>Fer servir caracteres ASCII , nombres, "-" o "_"</alert>
+        </application-name>
+        <form-name>
+            <label>Nom del formulari</label>
+            <hint todo="true">Identifica el formulari específic (e.g. "denuncias" or "consulta"). Este nombre se muestra en la URL del Formulari públicado, se recomienda usar minúsculas.</hint>
+            <help todo="true"/>
+            <alert>Fer servir caracteres ASCII , nombres, "-" o "_"</alert>
+        </form-name>
+        <title>
+            <label>Títol del Formulari</label>
+            <hint>Títol del Formulari al llenguatge configurat </hint>
+        </title>
+        <description>
+            <label>Descripció del Formulari</label>
+            <hint>Descripció del Formulari en el llenguatge configurat</hint>
+        </description>
+        <logo>
+            <label>Logo</label>
+            <hint>El logo es desplega en la part superior del Formulari</hint>
+        </logo>
+        <general-settings>
+            <label>Configuració General</label>
+        </general-settings>
+        <custom-settings>
+            <label>Configuració Personalitzada</label>
+        </custom-settings>
+        <!-- Toolbox -->
+        <cut>
+            <label>Retalla</label>
+        </cut>
+        <copy>
+            <label>Copiar</label>
+        </copy>
+        <paste>
+            <label>Pegar</label>
+        </paste>
+        <undo-redo>
+            <undo todo="true">[Undo {0}]</undo>
+            <redo todo="true">[Redo {0}]</redo>
+            <insert>[insert]</insert>
+            <rename todo="true">[rename]</rename>
+            <delete-control todo="true">[delete control]</delete-control>
+            <delete-container todo="true">[delete container]</delete-container>
+            <merge-section-template todo="true">[merge section template]</merge-section-template>
+            <move-control todo="true">[move control]</move-control>
+            <move-container todo="true">[move container]</move-container>
+            <update-settings todo="true">[update settings]</update-settings><insert-control todo="true">[insert control]</insert-control>
+            <insert-section todo="true">[insert section]</insert-section>
+            <insert-grid todo="true">[insert grid]</insert-grid>
+            <delete-row todo="true">[delete row]</delete-row>
+            <insert-row todo="true">[insert row]</insert-row>
+            <control-settings todo="true">[control settings]</control-settings>
+            <move-wall todo="true">[move wall]</move-wall>
+            <split-cell todo="true">[split cell]</split-cell>
+            <merge-cell todo="true">[merge cell]</merge-cell>
+        </undo-redo>
+        <merge-section>
+            <label todo="true">[Merge Section Template]</label>
+        </merge-section>
+        <form-structure>
+            <label>Estructura del Formulari</label>
+        </form-structure>
+        <controls>
+            <label>Controls</label>
+        </controls>
+        <i18n>
+            <label>Internacionalització</label>
+        </i18n>
+        <language>
+            <label>Llenguatge Seleccionat</label>
+        </language>
+        <advanced>
+            <label>Avançat</label>
+        </advanced>
+        <attachments>
+            <label todo="true">[Attachments]</label>
+        </attachments>
+        <services-actions>
+            <label>Serveis &amp; Accions</label>
+        </services-actions>
+        <http-services>
+            <label>Serveis HTTP</label>
+        </http-services>
+        <database-services>
+            <label>Serveis de Base de Dades</label>
+        </database-services>
+        <actions>
+            <label>Accions</label>
+        </actions>
+        <new-section>
+            <label>Nova Secció</label>
+        </new-section>
+        <new-grid>
+            <label>Nova Graella</label>
+        </new-grid>
+        <new-repeated-grid>
+            <label>Nova Repetició</label>
+        </new-repeated-grid>
+        <change-schema>
+            <label>Canviar Esquema</label>
+        </change-schema>
+        <upload-schema>
+            <label>Esquema XML</label>
+        </upload-schema>
+        <pdf-templates>
+            <label>Adjuntar PDF</label>
+        </pdf-templates>
+        <change-css>
+            <label>Canviar CSS</label>
+        </change-css>
+        <upload-css>
+            <label>Adjuntar CSS</label>
+        </upload-css>
+        <show-source>
+            <label>Codi Font</label>
+        </show-source>
+        <edit-source>
+            <label>Editar Codi Font</label>
+        </edit-source>
+        <permissions>
+            <label>Configurar Permisos</label>
+        </permissions>
+        <reload-components>
+            <label>Recarregar Eines</label>
+        </reload-components>
+        <library-version>
+            <label todo="true">Versió de la Llibreria</label>
+            <item>
+                <label todo="true">Version {0,number,integer}</label>
+            </item>
+        </library-version>
+        <enter-section-title>
+            <label>Fer Click per inserir el nom de la Secció</label>
+        </enter-section-title>
+        <type-section-title>
+            <label>Escrigui el nom de la Secció</label>
+        </type-section-title>
+        <enter-label>
+            <label>Fer Click per inserir una etiqueta</label>
+        </enter-label>
+        <type-label>
+            <label>Escrigui l'etiqueta aquí</label>
+        </type-label>
+        <enter-hint>
+            <label>Fer Click per inserir ajuda</label>
+        </enter-hint>
+        <type-hint>
+            <label>Escrigui l'ajuda aquí</label>
+        </type-hint>
+        <enter-text>
+            <label>Fer Click per inserir text</label>
+        </enter-text>
+        <type-text>
+            <label>Escrigui text aquí</label>
+        </type-text>
+        <click-cell>
+            <label>Fer Click per seleccionar cel·la</label>
+        </click-cell>
+        <insert-control>
+            <label>Fer servir la barra d'eines per inserir un control</label>
+        </insert-control>
+        <edit-items>
+            <label>Edita Opcions</label>
+        </edit-items>
+        <merge-right-icon>
+            <label todo="true">[Expand horizontally]</label>
+        </merge-right-icon>
+        <split-horizontally-icon>
+            <label todo="true">[Split horizontally]</label>
+        </split-horizontally-icon>
+        <merge-below-icon>
+            <label todo="true">[Expand vertically]</label>
+        </merge-below-icon>
+        <split-vertically-icon>
+            <label todo="true">[Split vertically]</label>
+        </split-vertically-icon>
+        <delete-control-icon>
+            <label>Elimina Control</label>
+        </delete-control-icon>
+        <move-icon>
+            <label todo="true">[Drag &amp; drop to move or copy]</label>
+        </move-icon>
+        <delete-grid-icon>
+            <label>Elimina Graella</label>
+        </delete-grid-icon>
+        <delete-section-icon>
+            <label>Elimina Secció</label>
+        </delete-section-icon>
+        <delete-row-icon>
+            <label>Elimina Fila</label>
+        </delete-row-icon>
+        <delete-column-icon>
+            <label>Elimina Columna</label>
+        </delete-column-icon>
+        <insert-column-left-icon>
+            <label>Insereix Columna a l'Esquerra</label>
+        </insert-column-left-icon>
+        <insert-column-right-icon>
+            <label>Insereix Columna a la Dreta</label>
+        </insert-column-right-icon>
+        <insert-row-above-icon>
+            <label>Insereix Fila Arriba</label>
+        </insert-row-above-icon>
+        <insert-row-below-icon>
+            <label>Insereix Fila Abajo</label>
+        </insert-row-below-icon>
+        <section-details-icon>
+            <label>Detalls de la Secció</label>
+        </section-details-icon>
+        <grid-details-icon>
+            <label>Detalles de la Grilla</label>
+        </grid-details-icon>
+        <move-up-icon>
+            <label>Moure Arriba</label>
+        </move-up-icon>
+        <move-down-icon>
+            <label>Moure Abajo</label>
+        </move-down-icon>
+        <move-right-icon>
+            <label>Moure Dreta</label>
+        </move-right-icon>
+        <move-left-icon>
+            <label>Moure Esquerra</label>
+        </move-left-icon>
+        <control-details-icon>
+            <label>Configuració de Controls</label>
+        </control-details-icon>
+        <switch-appearance-icon>
+            <label>Canviar Aspecte</label>
+        </switch-appearance-icon>
+        <help-icon>
+            <label>Edita Ajuda</label>
+        </help-icon>
+        <!-- Common -->
+        <add>
+            <label>Afegeix</label>
+        </add>
+        <remove>
+            <label>Elimina</label>
+        </remove>
+        <edit>
+            <label>Edita</label>
+        </edit>
+        <classes>
+            <label>Classes CSS customitzades</label>
+        </classes>
+        <default-always-never>
+            <item todo="true" id="0">[Use property]</item>
+            <item todo="true" id="1">[Always]</item>
+            <item todo="true" id="2">[Never]</item>
+        </default-always-never>
+        <!-- Dialogs -->
+        <continue>
+            <label>Continua</label>
+        </continue>
+        <apply>
+            <label>Aplica</label>
+        </apply>
+        <cancel>
+            <label>Cancel·la</label>
+        </cancel>
+        <close>
+            <label>Tanca</label>
+        </close>
+        <delete>
+            <label>Elimina</label>
+        </delete>
+        <or>
+            <label>o</label>
+        </or>
+        <components>
+            <parameters-editor>
+                <name>
+                    <label todo="true">[Name]</label>
+                    <alert todo="true">[Missing or incorrect value]</alert>
+                </name>
+                <xpath>
+                    <label todo="true">[XPath Expression]</label>
+                    <alert todo="true">[Incorrect XPath expression]</alert>
+                </xpath>
+                <control>
+                    <label todo="true">[Control]</label>
+                    <alert todo="true">[Missing value]</alert>
+                </control>
+                <type>
+                    <item id="0" todo="true">[Control Value]</item>
+                    <item id="1" todo="true">[XPath Expression]</item>
+                    <item id="2" todo="true">[All Control Values]</item>
+                </type>
+            </parameters-editor>
+        </components>
+        <dialog-form-settings>
+            <label>Configuració del Formulari</label>
+            <save-as>Anomena i desa…</save-as>
+            <open><label>Configuració del Formulari</label></open>
+            <options todo="true">[Form Options]</options>
+            <wizard-options todo="true">[Wizard Options]</wizard-options>
+            <control-settings todo="true">[Control Settings]</control-settings>
+            <about todo="true">[About this Form]</about>
+            <stats>Estadístiques del Formulari</stats>
+            <sections>Seccions</sections>
+            <repeats>Repeticions</repeats>
+            <grids>Graelles</grids>
+            <section-templates>Plantilles de Secció</section-templates>
+            <controls>Controls</controls>
+            <all>Tots</all>
+            <singleton>
+                <label>És Formulari únic</label>
+                <hint>Impedeix que els usuaris afegeixin nous Formularis si ja existeixen Formularis.</hint>
+            </singleton>
+            <wizard>
+                <label todo="true">[Wizard View]</label>
+                <hint todo="true">[Show top-level sections as separate wizard pages]</hint>
+            </wizard>
+            <wizard-mode>
+                <label todo="true">[Wizard Navigation Validation Mode]</label>
+                <hint todo="true">[How wizard navigation behaves when data is not valid]</hint>
+                <item todo="true" id="0">[Use property]</item>
+                <item todo="true" id="1">[Free]</item>
+                <item todo="true" id="2">[Lax]</item>
+                <item todo="true" id="3">[Strict]</item>
+            </wizard-mode>
+            <wizard-subsections-nav>
+                <label todo="true">[Wizard Subsections Navigation]</label>
+                <hint todo="true">[Whether the wizard enables navigation for sections and grids within top-level sections]</hint>
+            </wizard-subsections-nav>
+            <wizard-subsections-toc>
+                <label>Wizard Subsections Table of Contents</label>
+                <hint>How the wizard table of contents shows subsections</hint>
+                <item id="0">Fes servir la propietat</item>
+                <item id="1">Mostra Subseccions només per la Secció Activa</item>
+                <item id="2">Mostra Subseccions per totes les Seccions</item>
+                <item id="3">No mostris Subseccions</item>
+            </wizard-subsections-toc>
+            <attachment-max-size>
+                <label todo="true">[Maximum Attachment Size per Control]</label>
+                <hint todo="true">[Can also be set on a per-control basis in Control Settings]</hint>
+            </attachment-max-size>
+            <attachment-max-size-aggregate>
+                <label todo="true">[Maximum Aggregate Attachment Size]</label>
+                <hint todo="true">[Applies to all attachment controls in this form]</hint>
+            </attachment-max-size-aggregate>
+            <attachment-mediatypes>
+                <label todo="true">[Allowed File Types]</label>
+                <hint todo="true">[For example "image/* application/pdf"]</hint>
+            </attachment-mediatypes>
+            <labels>
+                <label todo="true">[Appearance of Control Labels]</label>
+            </labels>
+            <hints>
+                <label todo="true">[Appearance of Control Hints]</label>
+            </hints>
+            <appearances>
+                <item todo="true" id="0">[Use property]</item>
+                <item todo="true" id="1">[Inline]</item>
+                <item todo="true" id="2">[Tooltip]</item>
+            </appearances>
+            <placeholders>
+                <label todo="true">[Use Placeholder for Text Fields and Text Areas]</label>
+            </placeholders>
+            <data-migration>
+                <label todo="true">[Simple Data Migration]</label>
+                <hint todo="true">[Automatically add/remove missing elements in data]</hint>
+                <item id="0" todo="true">[Use property]</item>
+                <item id="1" todo="true">[Enabled]</item>
+                <item id="2" todo="true">[Disabled]</item>
+                <item id="3" todo="true">[Raise an error]</item>
+            </data-migration>
+            <analysis-calculate>
+                <label todo="true">[Automatic Calculations Dependencies]</label>
+                <hint todo="true">Automatically determine evaluation order for "Calculated Value" and "Initial Value" formulas</hint>
+            </analysis-calculate>
+            <versions todo="true">[Versions]</versions>
+            <current-version todo="true">[Current Version]</current-version>
+            <created-with-version todo="true">[Created with Version]</created-with-version>
+            <updated-with-versions todo="true">[Updated with Versions]</updated-with-versions>
+        </dialog-form-settings>
+        <dialog-control-details>
+            <label>Configuració de Controls</label>
+            <tab-base><label>Configuració Básica</label></tab-base>
+            <tab-validations><label>Validaciones y Alertas</label></tab-validations>
+            <tab-formulas><label>Formulas</label></tab-formulas>
+            <control-name>
+                <label>Nombre del Control</label>
+                <alert>Nombre en uso o incorrecto</alert>
+                <hint>Ej.: "primer-nombre"</hint>
+            </control-name>
+            <pdf-field-name>
+                <label todo="true">[Name of the PDF field]</label>
+            </pdf-field-name>
+            <options>
+                <label>Página de Resum</label>
+                <item>
+                    <label>Mostra al Resum</label>
+                    <value>fr-summary</value>
+                </item>
+                <item>
+                    <label>Mostra a les Cerques</label>
+                    <value>fr-search</value>
+                </item>
+                <item>
+                    <label todo="true">[Encrypt data at rest]</label>
+                    <value>fr-encrypt</value>
+                </item>
+            </options>
+            <email-options>
+                <label todo="true">[Email Options]</label>
+                <item>
+                    <label>És destinatari del Correu Electrònic</label>
+                    <value>fr-email-recipient</value>
+                </item>
+                <item>
+                    <label>[Email Carbon Copy Recipient]</label>
+                    <value>fr-email-cc</value>
+                </item>
+                <item>
+                    <label>[Email Bind Carbon Copy Recipient]</label>
+                    <value>fr-email-bcc</value>
+                </item>
+                <item>
+                    <label>[Email Sender]</label>
+                    <value>fr-email-sender</value>
+                </item>
+                <item>
+                    <label>Incluir como Adjuntos al Mail</label>
+                    <value>fr-email-attachment</value>
+                </item>
+                <item>
+                    <label todo="true">[Exclude from Email Body]</label>
+                    <value>fr-exclude-from-email-body</value>
+                </item>
+                <item>
+                    <label todo="true">Mostrar en Asunto del Mail</label>
+                    <value>fr-email-subject</value>
+                </item>
+            </email-options>
+            <control-appearance>
+                <label>Presentació del Control</label>
+            </control-appearance>
+            <whitespace>
+                <item>
+                    <label>Retalla espacios iniciales y finales</label>
+                    <value>trim</value>
+                </item>
+            </whitespace>
+            <types>
+                <label>Tipus de Dades</label>
+            </types>
+            <builtin-type>
+                <label>Tipus Básics</label>
+                <hint>Tipus Específics</hint>
+
+                <use-schema-type>Fer servir Tipus Esquema</use-schema-type>
+
+                <choices>
+                    <choices>
+                        <label>Tipus Comuns</label>
+                        <type label="String">string</type>
+                        <type label="Boolean">boolean</type>
+                        <type label="Email address">email</type>
+                    </choices>
+                    <choices>
+                        <label>Tipus Numérics</label>
+                        <type label="Decimal">decimal</type>
+
+                        <type label="Integer">integer</type>
+                        <type label="Positive integer">positiveInteger</type>
+                        <type label="Non-positive integer">nonPositiveInteger</type>
+                        <type label="Negative integer">negativeInteger</type>
+                        <type label="Non-negative integer">nonNegativeInteger</type>
+
+                        <type label="Simple-precision floating-point">float</type>
+                        <type label="Double-precision floating-point">double</type>
+
+                        <type label="">long</type>
+                        <type label="">int</type>
+                        <type label="">short</type>
+                        <type label="">byte</type>
+                        <type label="">unsignedLong</type>
+                        <type label="">unsignedInt</type>
+                        <type label="">unsignedShort</type>
+                        <type label="">unsignedByte</type>
+                    </choices>
+                    <choices>
+                        <label>Tipus de Data i Hora</label>
+                        <type label="Date">date</type>
+                        <type label="Time">time</type>
+                        <type label="Date and time">dateTime</type>
+                        <type label="Duration">duration</type>
+                        <type label="Year and month">gYearMonth</type>
+                        <type label="Month and day">gMonthDay</type>
+                        <type label="Year">gYear</type>
+                        <type label="Month">gMonth</type>
+                        <type label="Day">gDay</type>
+                    </choices>
+                    <choices>
+                        <label>Tipus XML</label>
+                        <type label="">normalizedString</type>
+                        <type label="">token</type>
+                        <type label="">language</type>
+                        <type label="">Name</type>
+                        <type label="">NCName</type>
+                        <type label="">ID</type>
+                        <type label="">IDREF</type>
+                        <type label="">IDREFS</type>
+                        <type label="">ENTITY</type>
+                        <type label="">ENTITIES</type>
+                        <type label="">NMTOKEN</type>
+                        <type label="">NMTOKENS</type>
+                        <type label="XML qualified name">QName</type>
+                        <type label="">NOTATION</type>
+                    </choices>
+                    <choices>
+                        <label>Otros Tipos</label>
+                        <!-- Not 100% sure if these two types allow empty content -->
+                        <type label="Base64-encoded binary">base64Binary</type>
+                        <type label="Hexadecimal-encoded binary">hexBinary</type>
+                        <type label="URI">anyURI</type>
+                    </choices>
+                </choices>
+            </builtin-type>
+            <schema-type>
+                <label>Tipus d'Esquema</label>
+                <hint>Tipus d'un Esquema Importat</hint>
+            </schema-type>
+            <required>
+                <label>Requerit</label>
+                <hint>Indica si la dada és requerida</hint>
+                <item id="0">Sí</item>
+                <item id="1">No</item>
+                <item id="2">XPath</item>
+            </required>
+            <constraint>
+                <item id="formula">Formula</item>
+                <item id="max-length">Longitud Màxima</item>
+                <item id="min-length">Longitud Mínima</item>
+                <item id="positive">Positiu</item>
+                <item id="non-negative">Positiu o Zero</item>
+                <item id="non-positive">Negatiu o Zero</item>
+                <item id="negative">Negatiu</item>
+                <item id="fraction-digits">Máxim de dígitss para fraccions</item>
+                <item id="upload-max-size" todo="true">[Maximum Attachment Size]</item>
+                <item id="upload-mediatypes" todo="true">[Supported File Types</item>
+                <item id="excluded-dates" todo="true">[Dates to Exclude]</item>
+            </constraint>
+            <formula>
+                <label>Formula</label>
+                <alert>Expresión XPath incorrecta</alert>
+                <hint>Expresión XPath debe ser booleana</hint>
+            </formula>
+            <integer-argument>
+                <label>Valor Enter</label>
+                <alert>Valor Incorrecte</alert>
+            </integer-argument>
+            <visibility>
+                <label>Visibilitat</label>
+                <alert>Expresión XPath incorrecta</alert>
+                <hint>Expresión XPath booleana</hint>
+            </visibility>
+            <readonly>
+                <label>Sólo-Lectura</label>
+                <alert>Expresión XPath incorrecta</alert>
+                <hint>Expresión XPath debe ser booleana</hint>
+            </readonly>
+            <default>
+                <label>Valor Inicial</label>
+                <alert>Expresión XPath incorrecta</alert>
+                <hint>Expresión XPath</hint>
+            </default>
+            <calculate>
+                <label>Valor Calculado</label>
+                <alert>Expresión XPath incorrecta</alert>
+                <hint>Expresión XPath</hint>
+            </calculate>
+            <control-label>
+                <label todo="true">[Label]</label>
+            </control-label>
+            <control-hint>
+                <label todo="true">[Hint]</label>
+            </control-hint>
+            <control-help>
+                <label>Missatge d'Ajuda</label>
+                <hint>Es mostra quan s'activa l'ajuda</hint>
+            </control-help>
+            <control-text>
+                <label todo="true">[Explanatory Text]</label>
+                <hint/>
+            </control-text>
+            <alert>
+                <label>Missatge d'Alerta</label>
+                <hint>Es mostra quan s'activa l'Alerta</hint>
+            </alert>
+            <default-alert>
+                <label>Missatge d'Alerta per defecte</label>
+                <hint>S'activa quan no hi ha un missatge d'alerta més específic</hint>
+            </default-alert>
+            <use-global-alert>
+                <label>Fer servir missatge global d'alerta</label>
+            </use-global-alert>
+            <use-default-alert>
+                <label>Fer servir missatge d'alerta</label>
+            </use-default-alert>
+            <validation-type><label>Tipus de Validació</label></validation-type>
+            <validation-details><label>Detalles de Validació</label></validation-details>
+            <level><label>Nivell</label></level>
+            <use-html>Fer servir HTML</use-html>
+            <parameters todo="true">[Template Parameters]</parameters>
+        </dialog-control-details>
+        <dialog-container-details>
+            <label>Detalls de Secció/Graella</label>
+            <control-name>
+                <label>Nomb</label>
+                <alert>Nom ja utilitzat o incorrecte</alert>
+                <hint>Ex: "nom"</hint>
+            </control-name>
+            <options>
+                <label>Opcions</label>
+                <item>
+                    <label>Expandido Inicialmente</label>
+                    <value>fr-initially-open</value>
+                </item>
+                <item>
+                    <label>Salt de Pàgina Abans</label>
+                    <value>fr-page-break-before</value>
+                </item>
+            </options>
+            <collapsible>
+                <label>Plegable</label>
+            </collapsible>
+            <visibility>
+                <label>Visibilitat</label>
+                <alert>Expresió XPath incorrecta</alert>
+                <hint>Expresió XPath booleana</hint>
+            </visibility>
+            <readonly>
+                <label>Només-Lectura</label>
+                <alert>Expresió XPath incorrecta</alert>
+                <hint>Expresió XPath booleana</hint>
+            </readonly>
+            <repeat>
+                <label>Repeteix Contingut</label>
+            </repeat>
+            <custom-iteration-name>
+                <label>Habilita Nom Customitzat d'Iteracció</label>
+                <hint/>
+            </custom-iteration-name>
+            <iteration-name>
+                <label>Nom Customiztat d'Iteracció</label>
+                <alert>Nom ja utilitzat o és incorrecte</alert>
+                <hint/>
+            </iteration-name>
+            <min>
+                <label>Número mínimo de Repeticiones</label>
+                <alert>Valor incorrecto</alert>
+                <hint>Número positivo o expresión XPath</hint>
+            </min>
+            <max>
+                <label>Número Máximo de Repeticiones</label>
+                <alert>Valor Incorrecto</alert>
+                <hint>Número positivo o expresión XPath</hint>
+            </max>
+            <freeze>
+                <label todo="true">[Freeze Repetitions]</label>
+                <alert todo="true">[Incorrect value]</alert>
+                <hint todo="true">[Non-negative number or XPath expression]</hint>
+            </freeze>
+            <no-freeze todo="true">[No freeze]</no-freeze>
+            <apply-defaults>
+                <label>Aplicar Formulas de cálculo inicial cuando se agregan iteraciones.</label>
+            </apply-defaults>
+            <initial-iterations>
+                <label>Número inicial de iteraciones usa Plantilla.</label>
+            </initial-iterations>
+            <other>Otro</other>
+            <one>Una Repetición</one>
+            <unlimited>Sense Límit</unlimited>
+            <no-minimum>Sense mínim</no-minimum>
+            <tab-base><label>Configuració y Fòrmules Básiques</label></tab-base>
+            <tab-repeat><label>Repereix Contingut</label></tab-repeat>
+        </dialog-container-details>
+        <dialog-confirmation>
+            <label>Confirma</label>
+        </dialog-confirmation>
+        <dialog-ids>
+            <label todo="true">[Control Names]</label>
+            <prefix>
+                <label todo="true">[Prefix]</label>
+            </prefix>
+            <suffix>
+                <label todo="true">[Suffix]</label>
+            </suffix>
+            <original-name>
+                <label todo="true">[Original Name]</label>
+            </original-name>
+            <new-name>
+                <label todo="true">[New Name]</label>
+            </new-name>
+        </dialog-ids>
+        <dialog-publish>
+            <label>Publica Formulari</label>
+            <publish>Publica</publish>
+            <publish-success>El Formulari ha estat publicat satisfactòriamentt [as version {1,number,integer}]. {0,choice,0#No attachment has|1#1 attachment has|1&lt;{0,number,integer} attachments have} been published.</publish-success>
+            <publish-error>Hi ha hagut un error durant la publicació.</publish-error>
+            <latest-published-version>Darrera versió publicada</latest-published-version>
+            <create-new-version-item>crear una Nova versión con número de versión {0,number,integer}</create-new-version-item>
+            <overwrite-version-item>sobre escribir la definición actual con número de versión {0,number,integer}</overwrite-version-item>
+            <create-new-version-help>
+                NOTA: Al publicar esta definición del Formulari se creará una Nova versión en la base de Dades. Los Dades de los Formularis existentes en la base de Dades serán vistos y editados en sus versiones correspondientes. Esta Nova versión se usará para crear los nuevos Formularis.
+            </create-new-version-help>
+            <overwrite-version-help>
+                NOTA: Se sobre-escribirá la definición actual del Formulari. Si los cambios realizados son chicos, como ser cambio de etiquetas, la Nova definición será compatible con la actual. Pero si se han realizado cambios estructurales, como ser, agregar, eliminar, renombrar o Moure Controls, la Nova versión puede ser incompatible con la actual. Se recomienda ser cauteloso al realizar esta operación.
+            </overwrite-version-help>
+            <open-summary>Abrir Página de Resumen del Formulari Publicado</open-summary>
+            <open-new>Obre Nova instància del Formulari</open-new>
+            <version todo="true">[Version]</version>
+            <available todo="true">[Make published form available]</available>
+            <comment todo="true">[Comment]</comment>
+        </dialog-publish>
+        <dialog-add-language>
+            <label>Afegeix Llenguatge</label>
+            <new-language>
+                <label>Afegeix el següent llenguatge</label>
+            </new-language>
+            <common>Llenguatges més Comuns</common>
+            <all>Altres llenguatges</all>
+            <add-language>
+                <label>Afegeix Llenguatge</label>
+            </add-language>
+            <remove-language>
+                <label>Elimina Llenguatge</label>
+            </remove-language>
+        </dialog-add-language>
+        <dialog-upload-schema>
+            <label>Puja Esquema XML</label>
+            <schema-type>
+                <label>Tipus d'Esquemes Disponibles</label>
+                <hint>Tipus básics disponibles a l'Esquema pujat</hint>
+            </schema-type>
+            <namespace-uri>
+                <label>Espai de Nom d'Esquema URI</label>
+                <hint>Aquest és l'espai de noms URI de l'Esquema pujat</hint>
+            </namespace-uri>
+            <operations>
+                <label>Operacions</label>
+            </operations>
+            <delete-schema>
+                <label>Elimina Esquema XML Existent</label>
+            </delete-schema>
+            <change-schema>
+                <label>Canvia Esquema XML</label>
+            </change-schema>
+            <replace-schema>
+                <label>Reemplaça Esquema XML</label>
+            </replace-schema>
+            <upload-schema>
+                <label>Adjunta Esquema XML</label>
+            </upload-schema>
+            <messages>
+                <no-simple-types>El esquema no tiene tipos básicos. No se podrá seleccionar tipos de este esquema para su Validació.</no-simple-types>
+                <has-includes>El esquema contiene "imports" o "includes". Estos serán deshabilitados.</has-includes>
+                <not-a-schema>El archivo subido NO es un esquema válido.</not-a-schema>
+                <new-schema-information>Información de Nuevo Esquema</new-schema-information>
+                <existing-schema-information>Información de Esquema Existente</existing-schema-information>
+            </messages>
+        </dialog-upload-schema>
+        <dialog-edit-source>
+            <label>Codi Font</label>
+            <source>
+                <alert>Por favor, asegúrese de que el contenido sea un XML bien formado</alert>
+            </source>
+        </dialog-edit-source>
+        <dialog-view-source>
+            <label>Veure Codi Font</label>
+        </dialog-view-source>
+        <dialog-pdf>
+            <label>Adjunta una plantilla PDF</label>
+            <pdf-upload>
+                <label>Arxiu PDF</label>
+            </pdf-upload>
+            <attachment-name>
+                <label todo="true">[Name]</label>
+            </attachment-name>
+            <attachment-language>
+                <label todo="true">[Language]</label>
+            </attachment-language>
+        </dialog-pdf>
+        <dialog-itemsets>
+            <label>Edita Opcions</label>
+            <resources-language>
+                <label>Recursos de llenguatge</label>
+            </resources-language>
+            <label-header>
+                <label>Etiqueta</label>
+            </label-header>
+            <value-header>
+                <label>Valor</label>
+            </value-header>
+            <hint-header>
+                <label>Ajuda</label>
+            </hint-header>
+            <clear-value>
+                <label>Neteja Valor</label>
+            </clear-value>
+            <remove-all>
+                <label todo="true">[Remove All]</label>
+            </remove-all>
+        </dialog-itemsets>
+        <dialog-http-services>
+            <label>Editor de Serveis HTTP</label>
+            <tab-definition><label>Definició</label></tab-definition>
+            <tab-advanced><label>Avançat</label></tab-advanced>
+            <tab-test><label>Probar Resultatats</label></tab-test>
+            <url-parameters><label>Paràmetres de la URL</label></url-parameters>
+            <parameter-name><label>Nom</label></parameter-name>
+            <parameter-default-value><label>Valor per Defecte</label></parameter-default-value>
+            <no-headers>No s'han rebut capçaleres.</no-headers>
+            <service-name>
+                <label>Nom del Servei</label>
+                <hint>Ingrese un nom únic per aquest Servei</hint>
+            </service-name>
+            <resource>
+                <label>Recursos d'URL</label>
+                <hint>HTTP URL on resideix el servei</hint>
+            </resource>
+            <method>
+                <label>Mètode</label>
+            </method>
+            <serialization>
+                <label>Serialització</label>
+            </serialization>
+            <soap-submission>
+                <label>Servei SOAP</label>
+                <hint>Indica si el servei és un servei SOAP</hint>
+            </soap-submission>
+            <soap-action>
+                <label>Acció SOAP</label>
+                <hint>Opcional cabezal del SOAPAction</hint>
+            </soap-action>
+            <http-authentication>
+                <label>Autenticació HTTP</label>
+                <hint>Autenticació HTTP</hint>
+            </http-authentication>
+            <username>
+                <label>Nom d'usuari</label>
+            </username>
+            <password>
+                <label>Paraula de pas</label>
+            </password>
+            <request-body>
+                <label>Cos de la Sol·licitud</label>
+                <hint>Dades XML (pueder ser un "SOAP envelope")</hint>
+            </request-body>
+            <response>
+                <label>Resposta</label>
+            </response>
+            <error-type>
+                <label>Tipus d'Error</label>
+                <item>
+                    <label>Sumisión en progreso</label>
+                    <value>submission-in-progress</value>
+                </item>
+                <item>
+                    <label>No hi ha dades</label>
+                    <value>no-data</value>
+                </item>
+                <item>
+                    <label>Error de Validació</label>
+                    <value>validation-error</value>
+                </item>
+                <item>
+                    <label>Error de Recurs</label>
+                    <value>resource-error</value>
+                </item>
+                <item>
+                    <label>Error de Destí</label>
+                    <value>target-error</value>
+                </item>
+                <item>
+                    <label>Error Intern</label>
+                    <value>xxforms-internal-error</value>
+                </item>
+            </error-type>
+            <resource-uri>
+                <label>Recurs URL</label>
+            </resource-uri>
+            <status-code>
+                <label>Codi d'Estat</label>
+            </status-code>
+            <headers>
+                <label>Capçaleres</label>
+            </headers>
+            <header-name>
+                <label>Nom</label>
+            </header-name>
+            <header-value>
+                <label>Valor(s)</label>
+            </header-value>
+            <response-body>
+                <label>Cos de la Resposta </label>
+            </response-body>
+            <xml-response-body>
+                <label todo="true">[XML Response Body]</label>
+            </xml-response-body>
+            <save>
+                <label>Desa</label>
+            </save>
+            <test>
+                <label>Fer prova</label>
+            </test>
+        </dialog-http-services>
+        <dialog-database-services>
+            <label>Editor de Servei de Base de Dades</label>
+            <service-name>
+                <label>Nomb del Servei</label>
+                <hint>Ingrese un nombre único per aquest servei</hint>
+            </service-name>
+            <datasource>
+                <label>Font de Dades</label>
+                <hint>Font de Dades JNDI per aquest servei</hint>
+            </datasource>
+            <query>
+                <label>Consulta SQL</label>
+                <hint>Consulta SQL que puede contener marcadores de posición para los parámetros</hint>
+            </query>
+            <save>
+                <label>Desa</label>
+            </save>
+            <test>
+                <label>Fer prova</label>
+            </test>
+        </dialog-database-services>
+        <dialog-actions>
+            <label>Editor d'Accions</label>
+            <service-name>
+                <label>Mom de l'Acció</label>
+                <hint>Ingrese un nombre único per aquesta Acció</hint>
+            </service-name>
+            <observer-type>
+                <label todo="true">[Run action when]</label>
+                <item id="0">
+                    <label todo="true">[control]</label>
+                </item>
+                <item id="1">
+                    <label todo="true">[the form loads]</label>
+                </item>
+            </observer-type>
+            <event-type>
+                <item id="0">
+                    <label todo="true">[changes its value]</label>
+                    <hint/>
+                </item>
+                <item id="1">
+                    <label todo="true">[appears or changes its value]</label>
+                    <hint/>
+                </item>
+                <item id="2">
+                    <label todo="true">[is activated]</label>
+                    <hint/>
+                </item>
+                <item id="3">
+                    <label todo="true">[after the controls are ready]</label>
+                    <hint/>
+                </item>
+                <item id="5">
+                    <label todo="true">[after the data is ready]</label>
+                    <hint/>
+                </item>
+                <item id="4">
+                    <label todo="true">[before the data's initial values are calculated]</label>
+                    <hint/>
+                </item>
+            </event-type>
+            <!--<event-type>-->
+                <!--<label>Reaccionar a</label>-->
+                <!--<hint>Evento (globla o en un control) para reaccionar a </hint>-->
+                <!--<item id="0">-->
+                    <!--<label>Valor Cambió</label>-->
+                    <!--<hint/>-->
+                <!--</item>-->
+                <!--<item id="1">-->
+                    <!--<label>Valor Cambió o Formulari Iniciado</label>-->
+                    <!--<hint/>-->
+                <!--</item>-->
+                <!--<item id="2">-->
+                    <!--<label>Activación</label>-->
+                    <!--<hint/>-->
+                <!--</item>-->
+                <!--<item id="3">-->
+                    <!--<label todo="true">Formulari Iniciado (after controls ready)</label>-->
+                    <!--<hint/>-->
+                <!--</item>-->
+                <!--<item id="4">-->
+                    <!--<label todo="true">Formulari Iniciado (before data ready)</label>-->
+                    <!--<hint/>-->
+                <!--</item>-->
+                <!--<item id="5">-->
+                    <!--<label todo="true">Formulari Iniciado (after data ready)</label>-->
+                    <!--<hint/>-->
+                <!--</item>-->
+            <!--</event-type>-->
+            <event-condition>
+                <label>Condició</label>
+                <item>
+                    <label>Executa Sempre</label>
+                    <value>true()</value>
+                </item>
+                <item>
+                    <label>Executa només al Iniciar</label>
+                    <value>$fr-mode='new'</value>
+                </item>
+            </event-condition>
+            <event-control>
+                <label>Control</label>
+            </event-control>
+            <service-to-call>
+                <label>Servei a Invocar</label>
+                <hint>Servei a invocar quan succeeixi l'event</hint>
+            </service-to-call>
+            <request-parameters>
+                <label>Configura els valors de la petició del servei</label>
+            </request-parameters>
+            <source-control>
+                <label>Control de Codi Font</label>
+            </source-control>
+            <destination-xpath>
+                <label>Destí Expresió XPath</label>
+            </destination-xpath>
+            <request-database-parameter>
+                <label>Configura Parámetress del Servei de Base de Dades</label>
+            </request-database-parameter>
+            <parameter-number>
+                <label>Número de paràmetre</label>
+            </parameter-number>
+            <response-values>
+                <label>Configuri els valors de control de la Resposta</label>
+            </response-values>
+            <destination-control>
+                <label>Control de Destí</label>
+            </destination-control>
+            <source-xpath>
+                <label>Origen Expresió XPath</label>
+            </source-xpath>
+            <response-itemset>
+                <label>Configurar los items de control selección de la respuesta</label>
+            </response-itemset>
+            <destination-selection-control>
+                <label>Control de Selección de Destí</label>
+            </destination-selection-control>
+            <items>
+                <label>Items</label>
+                <hint>Expresión XPath que retorna un nodo por cada item</hint>
+            </items>
+            <item-label>
+                <label>Etiqueta</label>
+                <hint>Expresión XPath relativa al nodo-item</hint>
+            </item-label>
+            <item-value>
+                <label>Valor</label>
+                <hint>Expresión XPath relativa al nodo-item</hint>
+            </item-value>
+            <save>
+                <label>Desa</label>
+            </save>
+            <test>
+                <label>Fer Prova</label>
+            </test>
+
+            <general-settings todo="true">[General Settings]</general-settings>
+            <service-request-actions todo="true">[Service Request Actions]</service-request-actions>
+            <service-response-actions todo="true">[Service Response Actions]</service-response-actions>
+
+            <set-control-value todo="true">[Set Control Value]</set-control-value>
+            <set-control-itemset todo="true">[Set Control Itemset]</set-control-itemset>
+            <save-to-dataset todo="true">[Save to Dataset]</save-to-dataset>
+            <dataset-name todo="true">[Dataset Name]</dataset-name>
+
+        </dialog-actions>
+        <dialog-test>
+            <label>Vista Prèvia del Formulari</label>
+        </dialog-test>
+        <dialog-pe>
+            <label>Característiques de Orbeon Forms PE</label>
+            <message>
+                <div>
+                    <p>Esta Característiques esta disponible solamente para Orbeon Forms PE.</p>
+                    <p>Por más información, visitar <a href="http://www.orbeon.com/download" target="_blank">sitio web de Orbeon</a>.</p>
+                </div>
+            </message>
+        </dialog-pe>
+        <dialog-email-settings>
+            <label todo="true">[Email Settings]</label>
+            <subject todo="true">[Email Subject]</subject>
+            <body todo="true">[Email Body]</body>
+            <from-properties todo="true">[Template from Properties]</from-properties>
+            <template>
+                <label todo="true">[Template]</label>
+            </template>
+        </dialog-email-settings>
+        <dialog-permissions>
+            <label>Permisos</label>
+            <enable-permissions>Habilitar permisos per aquest Formulari</enable-permissions>
+            <role>Rol</role>
+            <permissions>Permisos</permissions>
+            <operations>Operacions</operations>
+            <anyone>Todos</anyone>
+            <owner>Propietari</owner>
+            <group-members>Membres del Grupo</group-members>
+            <create>Crear</create>
+            <read>Acceder</read>
+            <update>Modificar</update>
+            <delete>Eliminar</delete>
+        </dialog-permissions>
+        <dialog-workflow>
+            <label todo="true">[Workflow and Permissions]</label>
+
+            <operations todo="true">[Operations]</operations>
+
+            <custom-operations todo="true">[Define custom operations for this form]</custom-operations>
+            <operation-label todo="true">[Label]</operation-label>
+            <predefined-label todo="true">[Predefined]</predefined-label>
+            <custom-label todo="true">[Custom]</custom-label>
+            <available-to todo="true">[Available To]</available-to>
+            <availability-to-anyone todo="true">[Anyone]</availability-to-anyone>
+            <availability-to-no-one todo="true">[No One]</availability-to-no-one>
+            <availability-to-users> todo="true"U[sers matching the following rule]</availability-to-users>
+            <availability-to-users-before todo="true">[Users matching]</availability-to-users-before>
+            <availability-to-users-after todo="true">[of the following rules]</availability-to-users-after>
+            <workflow-stage todo="true">[Workflow Stage]</workflow-stage>
+            <workflow-role> todo="true"W[orkflow Role]</workflow-role>
+            <authentication-role todo="true">[Authentication Role]</authentication-role>
+            <show-button> todo="true"S[how button on detail page]</show-button>
+            <any todo="true">[Any]</any>
+            <all todo="true">[All]</all>
+            <actions todo="true">[Actions]</actions>
+            <no-action todo="true">[No Action]</no-action>
+            <change-stage-action todo="true">[Change Stage]</change-stage-action>
+            <run-process-action todo="true">[Run Process]</run-process-action>
+            <remove-operation todo="true">[Remove Operation]</remove-operation>
+            <is todo="true">[is]</is>
+            <is-not todo="true">[is Not]</is-not>
+
+            <stages todo="true">[Stages]</stages>
+
+            <stage-name todo="true">[Stage Name]</stage-name>
+            <default-stage todo="true">[Default]</default-stage>
+
+        </dialog-workflow>
+        <xbl-control-settings>
+            <field-width todo="true">[Field width]</field-width>
+            <default todo="true">Use default</default>
+            <full todo="true">Full</full>
+            <natural todo="true">Natural</natural>
+        </xbl-control-settings>
+        <messages>
+            <delete-section>Aquesta acció elimiarà la Secció actual. Esteu segurs?</delete-section>
+            <delete-grid>Aquesta acció eliminarà la Graella actual. Esteu segurs?</delete-grid>
+            <delete-column>Está seguro de eliminar la Columna actual?</delete-column>
+            <delete-row>Está seguro de eliminar la Fila actual?</delete-row>
+            <delete-resources>Está seguro de eliminar todos los recursos para los idiomas</delete-resources>
+            <delete-service>Está seguro de eliminar el Servicio?</delete-service>
+            <delete-action>Está seguro de eliminar la Acción?</delete-action>
+            <controls-will-be-deleted>{0,choice,0#No controls|1#1 control|1&lt;{0,number,integer} controls} serán eliminados.</controls-will-be-deleted>
+            <metadata-edit-title>Metadades del Formulari</metadata-edit-title>
+            <new-metadata-output>Si us plau, informi nom d'aplicació i de Formulari, s'utilitzaran per identificar el seu Formulari (es poden informar més endavant).</new-metadata-output>
+            <edit-metadata-output/>
+            <save-as-metadata-output>Ingrese el nombre de la Nova apliación y Formulari ha ser usado para copiar este Formulari:</save-as-metadata-output>
+            <xpath-errors>Hay {0,choice,1#is one XPath error|1&lt;are {0,number,integer} XPath errors} en su Formulari.</xpath-errors>
+            <lhha-checkbox>Marqui el checkbox si vol inserir etiquetes HTML</lhha-checkbox>
+        </messages>
+        <template>
+            <untitled-form>Formulari sense títol</untitled-form>
+            <untitled-section>Secció sense títol</untitled-section>
+            <items>
+                <item>
+                    <label>Primera opció</label>
+                    <value>1</value>
+                    <hint/>
+                </item>
+                <item>
+                    <label>Segona opció</label>
+                    <value>2</value>
+                    <hint/>
+                </item>
+                <item>
+                    <label>Tercera opció</label>
+                    <value>3</value>
+                    <hint/>
+                </item>
+            </items>
+        </template>
+    </resource>
 </resources>
